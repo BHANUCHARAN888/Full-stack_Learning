@@ -1,0 +1,192 @@
+<!DOCTYPE html> <!-- to get the boilerplate of html just press'!' -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_BASICS</title>
+</head>
+
+<body>
+    <h1>Hello this is my first html file</h1>
+    <h2>I am learning this web developer course through udemy</h2>
+    <h3>Here I observed that decreasing the size of the heading by increasing the heading number</h3>
+    <!-- heading section -->
+    <!-- To add horizontal line from sections we should use hr -->
+    <hr>
+    <div> <!-- to maintaining the block or section we should use the tag called div -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illo libero necessitatibus, quam facere
+            voluptas
+            ullam perferendis quas hic ut nobis molestias vel, earum accusantium quibusdam voluptates est iure ea
+            ducimus
+            soluta itaque odit iusto! Totam ipsam sit eaque nesciunt exercitationem itaque animi vel adipisci, veritatis
+            temporibus optio voluptatum eius.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sequi laborum blanditiis, non maxime,
+            mollitia
+            eligendi vel repellendus deserunt reiciendis animi tenetur est accusantium sunt molestias, excepturi odit!
+            Suscipit nam doloribus, aliquid unde ex, est at ipsum numquam inventore asperiores fuga excepturi. At
+            distinctio
+            atque maxime, adipisci soluta est! Ex!</p>
+    </div>
+    <hr>
+    <!-- to get list we should use the ul,ol,li -->
+    <div>
+        <ul>
+            <li>first un-ordered list</li>
+            <li>second un-ordered list</li>
+            <li>third un-ordered list</li>
+        </ul>
+        <br><!-- to give the break between to sections weshould use br -->
+        <ol>
+            <li>first ordered list</li>
+            <li>second ordered list</li>
+            <li>third ordered list</li>
+        </ol>
+    </div>
+    <!-- div, main, header, footer, section are block elements -->
+    <!-- span is an in-line elements -->
+    <section>
+        <!-- we can use style property in tags of block and in-line elements -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                style="font-weight: bolder;">Voluptate</span>Voluptate aliquam ex odit, ratione sit sunt, quis,
+            dolorem accusamus dolore earum blanditiis repudiandae error possimus? Itaque totam doloribus fuga cum dicta
+        </p>
+    </section>
+    <!-- Tables tags -->
+    <hr>
+    <h1>Tables</h1>
+    <table>
+        <caption>THIS TABLE INCLUDE FEE DUE LIST</caption>
+        <tr>
+            <th>SI.no</th>
+            <th>Name</th>
+            <th>Roll.no</th>
+            <th>Due</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bhanu</td>
+            <td>420</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Charan</td>
+            <td>421</td>
+            <td>6000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Anil</td>
+            <td>422</td>
+            <td>7000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ajay</td>
+            <td>423</td>
+            <td>8000</td>
+        </tr>
+    </table>
+    <table>
+        <caption>THIS TABLES INCLUDE MULTIPLE ROWS IN A SECTION</caption>
+        <thead>
+            <tr>
+                <!-- to set the headings in a certain path we should use row-span and col-span -->
+                <th rowspan="2">SI.no</th>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Roll.no</th>
+                <th colspan="2">Due</th>
+            </tr>
+            <tr>
+                <th>Hostel fee</th>
+                <th>College fee</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Bhanu</td>
+            <td>421</td>
+            <td>2000</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Charan</td>
+            <td>422</td>
+            <td>3000</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Anil</td>
+            <td>423</td>
+            <td>4000</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ajay</td>
+            <td>424</td>
+            <td>5000</td>
+            <td>6000</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Arjun</td>
+            <td>425</td>
+            <td>6000</td>
+            <td>7000</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>FORMS AND LABELS</h1>
+    <div>
+        <form action="Demo/">
+            <caption>Application form for fees reimbursement</caption>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="age">Age:</label>
+                <input type="number">
+            </p>
+            <p>
+                <label for="DOB">DOB:</label>
+                <input type="date">
+            </p>
+            <p>
+                <label for="address">Address:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="ph">Phone no.:</label>
+                <input type="number">
+            </p>
+            <p>
+                <label for="Gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="Gender" id="female">
+            </p>
+            <p>
+                <input type="checkbox" name="eligible">
+                <label for="eligible">Eligible for full Fees-Reimbursement</label>
+            </p>
+            <p>
+                <label for="Email">E-mail:</label>
+                <input type="email">
+            </p>
+            <p>
+                <label for="comment">Comment:</label>
+                <textarea rows="20px" cols="40px" name="comment" id="comment">write something here..........</textarea>
+            </p>
+            <button>submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
