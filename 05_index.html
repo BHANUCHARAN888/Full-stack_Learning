@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE-FLEXBOX</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 30px;
+            margin: auto;
+        }
+        h1{
+            color: rgb(66, 42, 175);
+            text-align: center;
+        }
+        .card h3{
+           margin-bottom: 20px; 
+        }
+        .container{
+            display: flex;
+            gap: 100px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .card{
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: 0 4px 10px;
+            padding: 30px;
+            width: 250px;
+            transition: all 0.25s;
+        }
+        .card:hover{
+            transform: translateY(-5px) ;
+        }
+        @media (max-width: 600px){
+            .card{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Flexbox Layout</h1>
+      <div class="container">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>This is the first box</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>This is the second box</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>This is the third box</p>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-SELECTORS-DEMO</title>
+    <style>
+        body {
+            background-color: rgb(123, 159, 226);
+        }
+
+        h1 {
+            background-color: rgb(244, 157, 125);
+            border-radius: 20px;
+            border: 2px solid rgb(244, 157, 125);
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        h2 {
+            text-align: left;
+            margin-left: 15px;
+        }
+
+        p {
+            background-color: rgb(161, 233, 209);
+            border: 2px solid black;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0em 0.1em 0.5em rgb(0, 0, 0);
+        }
+        .c1{
+            transition: 2s;
+        }
+
+        .c1:hover {
+            background-color: rgb(255, 0, 230);
+            border-radius: 50px;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 0.5em 0.5em rgb(151, 24, 201);
+        }
+
+        h3 {
+            font-weight: lighter;
+            margin: 15px;
+        }
+
+        button {
+            width: 150px;
+            color: beige;
+            background-color: rgb(205, 130, 76);
+            height: 50px;
+            font-size: 17px;
+            border: solid black;
+            border-radius: 20px;
+            transition: all 0.25s;
+        }
+
+        .fancy {
+            width: auto;
+            background-color: rgb(94, 68, 119);
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            color: rgb(0, 234, 255);
+            box-shadow: 0em 0.5em 0.2em rgb(0, 234, 255);
+            transform: translateY(-0.3em);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS-SELECTORS-DEMO</h1>
+    <hr>
+    <br>
+    <h2>BASIC-SELECTORS</h2>
+    <p class="class">This is <span style="font-weight: bolder;">class</span> selector</p>
+    <p id="id">This is <span style="font-weight: bolder;">id</span> selector</p>
+    <div class="group">
+        <p>This is <span style="font-weight: bolder;">Grouped</span> selector, means group of elements contains one
+            single class</p>
+    </div>
+    <hr>
+    <div>
+        <h2>PSEUDO-CLASS:HOVER WHEN YOU TOUCHES</h2>
+        <P class="c1">This is PSEUDO-CLASS, which is hovers</P>
+    </div>
+    <hr>
+    <h3>Fancy Button, hover with transition</h3>
+    <div class="fancy">
+        <button>Touch me</button>
+    </div>
+
+</body>
+
+</html>
