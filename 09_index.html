@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="display-1 text-center text-success">Bootstrap practice</h1>
+    <div class="container-sm">
+        <h1 class="display-5">Buttons</h1>
+        <button type="button" class="btn btn-primary">Hello</button>
+        <button type="button" class="btn btn-outline-primary" disabled>Hello</button>
+        <button type="button" class="btn btn-outline-warning">Hello</button>
+        <h1 class="display-5">Button Group</h1>
+        <div class="btn-group">
+            <button class="btn btn-primary">one</button>
+            <button class="btn btn-primary">one</button>
+            <button class="btn btn-primary">one</button>
+        </div>
+        <h2>Alerts</h2>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, aperiam possimus unde
+            tenetur laborum error
+            illum, non nostrum, fugit iusto officiis obcaecati assumenda sit itaque distinctio. Ratione corrupti maxime
+            dolores voluptas quas, nobis ad illum quibusdam officia numquam! Velit cupiditate odit dolorem placeat
+            veniam
+            perferendis sapiente alias ullam cumque voluptate voluptatibus repellat blanditiis saepe facere soluta
+            numquam,
+            vel distinctio commodi maxime corrupti? Exercitationem, itaque illo.</p>
+        <figure class="text-end">
+            <p class="block-quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa officia
+                et distinctio beatae tenetur sed sunt
+                dignissimos ad minima amet.
+            <figcaption class="blockquote-footer">Mr.Lorem</figcaption>
+            </p>
+        </figure>
+    </div>
+    <h1 class="display-1 text-center text-primary">Grid System</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 bg-warning">this is 6</div>
+            <div class="col-3 bg-danger">this is 3</div>
+            <div class="col-3 bg-success">this is 3</div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-success">this is 4</div>
+            <div class="col-6 bg-warning">this is 6</div>
+            <div class="col-2 bg-danger">this is 2</div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-success">this is 4</div>
+            <div class="col-4 bg-primary">this is 4</div>
+            <div class="col-4 bg-info">this is 4</div>
+        </div>
+        <section class="display-5">Responsive Grids</section>
+        <div class="row">
+            <div class="col-sm-6  col-xl-3 bg-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt facere ea pariatur, est iste
+                laboriosam nam praesentium hic, ratione laborum earum expedita ducimus perspiciatis maiores, ipsam
+                qui ad fuga.
+            </div>
+            <div class="col-sm-6 col-xl-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam id distinctio quod provident qui
+                nulla enim expedita et alias, modi quidem inventore, dolorem eaque aperiam suscipit! Magnam,
+                explicabo tenetur.
+            </div>
+            <div class="col-sm-6 col-xl-3 bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam id distinctio quod provident qui
+                nulla enim expedita et alias, modi quidem inventore, dolorem eaque aperiam suscipit! Magnam,
+                explicabo tenetur.
+            </div>
+            <div class="col-sm-6 col-xl-3 bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam id distinctio quod provident qui
+                nulla enim expedita et alias, modi quidem inventore, dolorem eaque aperiam suscipit! Magnam,
+                explicabo tenetur.
+            </div>
+            <section class="display-5">Grid Allignment</section>
+            <div class="row align-items-center">
+                <div class="col-sm-6 col-xl-3 bg-primary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint animi dignissimos
+                    fugiat! Animi laudantium provident.
+                </div>
+                <div class="col-sm-6 col-xl-3 bg-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Labore ducimus eum iure
+                    soluta repellat, repellendus placeat asperiores dfmdkfnsf kfmnskdfnkdlf,;sdf.</div>
+                <div class="col-sm-6 col-xl-3 bg-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                    in aspernatur, animi
+                    commodi recusandae ipsa nesciunt natus, nisi consequuntur sunt esse sapiente repudiandae. Assumenda
+                    dolores temporibus distinctio fugit impedit neque deleniti. Obcaecati fugiat blanditiis reiciendis.
+                </div>
+                <div class="col-sm-6 col-xl-3 bg-danger align-self-start">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Delectus, nam.</div>
+            </div>
+            <section class="display-5">Justify content</section>
+            <div class="row border justify-content-center">
+                <div class="col-sm-6 col-xl-3 bg-success">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint animi dignissimos
+                    fugiat! Animi laudantium provident.
+                </div>
+                <div class="col-sm-6 col-xl-3 bg-danger">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint animi dignissimos
+                    fugiat! Animi laudantium provident.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-xl-3">
+                <img src="https://images.unsplash.com/photo-1750591674353-201a65fb8f81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY2fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col-md-5 col-xl-3">
+                <img src="https://images.unsplash.com/photo-1557259791-d0168156b224?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col-md-5 col-xl-3">
+                <img src="https://images.unsplash.com/photo-1689479665582-51d0c25215b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col-md-5 col-xl-3">
+                <img src="https://images.unsplash.com/photo-1696976021378-f2cf44809d37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+                    class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
